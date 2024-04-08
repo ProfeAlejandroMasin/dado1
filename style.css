@@ -1,0 +1,72 @@
+* {
+    background-color: khaki;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.dado {
+    min-width: 250px;
+    height: 250px;
+    background-color: black;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.punto {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50%;
+    /* margin: 20px; */
+}
+
+#dado1 {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-wrap: wrap;
+}
+
+#dado2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.punto-izquierda-superior {
+    min-width: 33.3%;
+    background-color: transparent;
+}
+
+.punto-derecha-inferior {
+    min-width: 33.3%;
+    display: flex;
+    background-color: transparent;
+    justify-content: flex-end;
+    align-items: end;
+}
+
+.columna-central {
+    min-width: 33.3%;
+    background-color: transparent;
+}
+
+#dado3 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.punto-central {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
